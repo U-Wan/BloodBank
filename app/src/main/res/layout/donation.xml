@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="#F1E6C7"
+    tools:context=".DonationsActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtNameItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_margin="2dp"
+            tools:text="name" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+
+            android:id="@+id/txtMobileNumberItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:paddingStart="45dp"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            tools:text="phone" />
+
+
+
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <com.google.android.material.textview.MaterialTextView
+
+        android:id="@+id/txtBloodGroupItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blood group"
+        android:layout_margin="2dp"
+        android:textColor="#000000"
+
+        android:textSize="20sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtLocationItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:paddingStart="15dp"
+        android:layout_margin="3dp"
+        tools:text="address" />
+
+</LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+
+            android:id="@+id/txtLastDonatedDateItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFC107"
+            android:textSize="20sp"
+            android:layout_margin="3dp"
+            tools:text="date" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+
+        android:id="@+id/txtWeightItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8BC34A"
+        android:textSize="20sp"
+        android:layout_margin="3dp"
+        tools:text="weight" />
+
+
+</LinearLayout>

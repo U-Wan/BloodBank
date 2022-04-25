@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "name": "David Bagrationi",
+      "group": "I",
+      "date": "2022-02-04",
+      "mobile": "599123412",
+      "weight":50,
+	  "location":"Tbilisi"
+
+      
+    },
+    {
+   "name": "Nino Kaikacishvili",
+      "group": "IV",
+      "date": "2021-12-14",
+      "mobile": "56992345",
+      "weight":70,
+	  "location":"Batumi"
+    },
+    {
+   "name": "Kandindid Charkviani",
+      "group": "II",
+      "date": "2021-02-03",
+      "mobile": "599121212",
+      "weight":77,
+	  "location":"Tbilisi"
+    },
+    {
+      "name": "Vitali Volkov",
+      "group": "I",
+      "date": "2021-11-01",
+      "mobile": "789031221",
+      "weight":215,
+	  "location":"Moscow"
+    },
+    {
+        "name": "Giorgi Afkhazava",
+      "group": "III",
+      "date": "2015-14-11",
+      "mobile": "688934342",
+      "weight":65,
+	  "location":"Tbilisi"
+    },
+    {
+	 "name": "David Davitashvili",
+      "group": "III",
+      "date": "2021-05-01",
+      "mobile": "599181212",
+      "weight":96,
+	  "location":"tbilisi"
+    }
+	,
+    {
+	 "name": "some name",
+      "group": "I",
+      "date": "2021-03-16",
+      "mobile": "56245435",
+      "weight":107,
+	  "location":"Tbilisi"
+    }
+	,
+    {
+	 "name": "John Smith",
+      "group": "IV",
+      "date": "2021-11-16",
+      "mobile": "599121212",
+      "weight":85,
+	  "location":"Tbilisi"
+    }
+	,
+    {
+	 "name": "Harol Mebonia",
+      "group": "II",
+      "date": "2021-12-16",
+      "mobile": "599121212",
+      "weight":76,
+	  "location":"Kutaisi"
+    }
+
+	,
+    {
+	 "name": "some name",
+      "group": "II",
+      "date": "2021-05-01",
+      "mobile": "599121212",
+      "weight":88,
+	  "location":"Tbilisi"
+    },
+    {
+	 "name": "Adolf Hitler",
+      "group": "II",
+      "date": "1944-04-01",
+      "mobile": "599121212",
+      "weight":85,
+	  "location":"Berlin"
+    },
+    {
+      "name": "Adolf Hitler",
+      "group": "II",
+      "date": "1944-04-01",
+      "mobile": "599121212",
+      "weight":85,
+      "location":"Berlin"
+    },
+    {
+      "name": "Adolf Hitler",
+      "group": "II",
+      "date": "1944-04-01",
+      "mobile": "599121212",
+      "weight":55,
+      "location":"Berlin"
+    },
+    {
+      "name": "Adolf Hitler",
+      "group": "II",
+      "date": "1944-04-01",
+      "mobile": "599121212",
+      "weight":75,
+      "location":"Berlin"
+    },
+    {
+      "name": "Adolf Hitler",
+      "group": "II",
+      "date": "1944-04-01",
+      "mobile": "599121212",
+      "weight":85,
+      "location":"Berlin"
+    },
+    {
+      "name": "Adolf Hitler",
+      "group": "II",
+      "date": "1944-04-01",
+      "mobile": "599121212",
+      "weight":85,
+      "location":"Berlin"
+    }
+  ]
+}
