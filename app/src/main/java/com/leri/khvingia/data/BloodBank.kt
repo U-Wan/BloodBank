@@ -6,9 +6,10 @@ import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
 
-@Entity(tableName = "blood_base")
+@Entity(tableName = "donation_table")
 @Keep
 data class BloodBank(
+
     @SerializedName("name")
     var name: String,
     @SerializedName("group")
@@ -22,5 +23,6 @@ data class BloodBank(
     @SerializedName("location")
     var address: String,
     @PrimaryKey(autoGenerate = true)
-    var id: Int = 0
+var id: Int = 0,
+
 )

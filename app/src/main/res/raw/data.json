@@ -88,47 +88,47 @@
 	  "location":"Tbilisi"
     },
     {
-	 "name": "Adolf Hitler",
+	 "name": "Davit Mgaloblishvili",
       "group": "II",
-      "date": "1944-04-01",
+      "date": "1984-04-01",
       "mobile": "599121212",
       "weight":85,
 	  "location":"Berlin"
     },
     {
-      "name": "Adolf Hitler",
-      "group": "II",
+      "name": "Stalin",
+      "group": "I",
       "date": "1944-04-01",
       "mobile": "599121212",
-      "weight":85,
+      "weight":99,
       "location":"Berlin"
     },
     {
       "name": "Adolf Hitler",
       "group": "II",
-      "date": "1944-04-01",
+      "date": "1904-04-01",
       "mobile": "599121212",
       "weight":55,
       "location":"Berlin"
     },
     {
-      "name": "Adolf Hitler",
-      "group": "II",
-      "date": "1944-04-01",
+      "name": "Mao Dzedong",
+      "group": "I",
+      "date": "1949-04-01",
       "mobile": "599121212",
-      "weight":75,
-      "location":"Berlin"
+      "weight":105,
+      "location":"Pekin"
     },
     {
       "name": "Adolf Hitler",
       "group": "II",
       "date": "1944-04-01",
       "mobile": "599121212",
-      "weight":85,
+      "weight":65,
       "location":"Berlin"
     },
     {
-      "name": "Adolf Hitler",
+      "name": "John Smith",
       "group": "II",
       "date": "1944-04-01",
       "mobile": "599121212",

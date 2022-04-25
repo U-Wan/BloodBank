@@ -1,13 +1,15 @@
 package com.leri.khvingia
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.leri.khvingia.databinding.ActivityDonationBinding
+
 
 class DonationsActivity : AppCompatActivity() {
 
@@ -45,8 +47,9 @@ class DonationsActivity : AppCompatActivity() {
                 true
             }
             R.id.addnewdonation -> {
-                sortByWeight()
-                true
+                val i = Intent(applicationContext, MainActivity::class.java)
+                startActivity(i)
+                 true
             }
             else -> super.onOptionsItemSelected(item)
         }

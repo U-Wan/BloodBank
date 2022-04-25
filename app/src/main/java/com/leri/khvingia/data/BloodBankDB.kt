@@ -25,11 +25,10 @@ import java.util.concurrent.Executors
 @Database(entities = [BloodBank::class], version = 1, exportSchema = false)
 abstract class BloodBankDB : RoomDatabase() {
     abstract fun UserProfileDao(): BloodBank_DAO
-
     companion object {
         @Volatile
         private var instance: BloodBankDB? = null
-        private const val TAG = "DonationDB"
+        private const val TAG = "DonationsDB"
 
 
         @Synchronized
@@ -52,7 +51,7 @@ abstract class BloodBankDB : RoomDatabase() {
                                     super.onCreate(db)
                                     Log.d(TAG, "onCreate: ")
                                     Executors.newSingleThreadScheduledExecutor()
-                                    CoroutineScope(Dispatchers.IO).launch{ fillWithDemoData(context) }
+                                    CoroutineScope(Dispatchers.IO).launch{ ReadFromJson(context) }
                                 }
                             }).build()
                     }
@@ -62,7 +61,7 @@ abstract class BloodBankDB : RoomDatabase() {
         }
 
         @WorkerThread
-        private suspend fun fillWithDemoData(context: Context) {
+        private suspend fun ReadFromJson(context: Context) {
             val dao: BloodBank_DAO = getInstance(context).UserProfileDao()
             val userProfile = loadJsonArray(context)
             try {

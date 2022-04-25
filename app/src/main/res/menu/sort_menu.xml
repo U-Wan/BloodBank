@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/sortByWeight"
-        android:title="@string/sort_by_weight" />
+        android:title="Sort by weight" />
     <item android:id="@+id/sortByDate"
-        android:title="@string/sort_by_date" />
+        android:title="Sort by date" />
     <item android:id="@+id/addnewdonation"
-        android:title="@string/make_donation" />
+        android:title="Make donation" />
 </menu>

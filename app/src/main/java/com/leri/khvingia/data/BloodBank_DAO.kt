@@ -10,14 +10,14 @@ import androidx.room.Query
 interface BloodBank_DAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(bloodBank: BloodBank)
+    @Query("SELECT * FROM donation_table ORDER BY weight ASC")
+    fun getbyweight(): PagingSource<Int, BloodBank>?
 
-    @Query("SELECT * FROM blood_base ORDER BY id ASC")
+    @Query("SELECT * FROM donation_table ORDER BY id ASC")
     fun getAll(): PagingSource<Int, BloodBank>?
 
-    @Query("SELECT * FROM blood_base ORDER BY weight ASC")
-    fun getAllByWeight(): PagingSource<Int, BloodBank>?
 
-    @Query("SELECT * FROM blood_base ORDER BY lastDonatedDate ASC")
-    fun getAllByDate(): PagingSource<Int, BloodBank>?
+    @Query("SELECT * FROM donation_table ORDER BY lastDonatedDate ASC")
+    fun getbydate(): PagingSource<Int, BloodBank>?
 
 }

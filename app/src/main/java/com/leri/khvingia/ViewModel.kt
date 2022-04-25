@@ -21,10 +21,10 @@ class ViewModel(app: Application) : AndroidViewModel(app) {
     fun getPager(query: String) =
         Pager(PagingConfig(pageSize = 10, enablePlaceholders = true, maxSize = 200)) {
             when (query) {
-                "by weight" -> dao.getAllByWeight()!!
-                "by date" -> dao.getAllByDate()!!
+                "by weight" -> dao.getbyweight()!!
+                "by date" -> dao.getbydate()!!
                 else -> {
-                    dao.getAllByDate()!!
+                    dao.getbydate()!!
                 }
             }
         }.liveData.cachedIn(viewModelScope)
