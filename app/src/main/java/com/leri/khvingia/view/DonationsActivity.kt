@@ -1,4 +1,4 @@
-package com.leri.khvingia
+package com.leri.khvingia.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,9 @@ import android.view.MenuItem
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.leri.khvingia.viewmodels.DonatorAdapter
+import com.leri.khvingia.R
+import com.leri.khvingia.viewmodels.ViewModel
 import com.leri.khvingia.databinding.ActivityDonationBinding
 
 

@@ -5,8 +5,8 @@
     android:layout_height="130dp"
     android:layout_margin="10dp"
     android:orientation="vertical"
-    android:background="#F1E6C7"
-    tools:context=".DonationsActivity">
+    android:background="#D6F6B6"
+    tools:context=".view.DonationsActivity">
 
 
     <LinearLayout
@@ -74,7 +74,7 @@
             android:id="@+id/txtLastDonatedDateItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#FFC107"
+            android:textColor="#FF5722"
             android:textSize="20sp"
             android:layout_margin="3dp"
             tools:text="date" />
@@ -85,7 +85,7 @@
         android:id="@+id/txtWeightItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#8BC34A"
+        android:textColor="#E91E63"
         android:textSize="20sp"
         android:layout_margin="3dp"
         tools:text="weight" />

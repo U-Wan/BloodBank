@@ -1,4 +1,4 @@
-package com.leri.khvingia.data
+package com.leri.khvingia.model
 
 
 import android.content.Context
@@ -20,8 +20,6 @@ import java.io.IOException
 import java.io.InputStreamReader
 import java.util.concurrent.Executors
 
-
-
 @Database(entities = [BloodBank::class], version = 1, exportSchema = false)
 abstract class BloodBankDB : RoomDatabase() {
     abstract fun UserProfileDao(): BloodBank_DAO
@@ -29,7 +27,6 @@ abstract class BloodBankDB : RoomDatabase() {
         @Volatile
         private var instance: BloodBankDB? = null
         private const val TAG = "DonationsDB"
-
 
         @Synchronized
         fun getInstance(context: Context): BloodBankDB {
@@ -46,7 +43,6 @@ abstract class BloodBankDB : RoomDatabase() {
                                     super.onOpen(db)
                                     Log.d(TAG, "onOpen: ")
                                 }
-
                                 override fun onCreate(db: SupportSQLiteDatabase) {
                                     super.onCreate(db)
                                     Log.d(TAG, "onCreate: ")
@@ -59,7 +55,6 @@ abstract class BloodBankDB : RoomDatabase() {
             }
             return instance!!
         }
-
         @WorkerThread
         private suspend fun ReadFromJson(context: Context) {
             val dao: BloodBank_DAO = getInstance(context).UserProfileDao()

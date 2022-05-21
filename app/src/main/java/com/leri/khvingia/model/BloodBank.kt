@@ -1,4 +1,4 @@
-package com.leri.khvingia.data
+package com.leri.khvingia.model
 
 import androidx.annotation.Keep
 import androidx.room.Entity

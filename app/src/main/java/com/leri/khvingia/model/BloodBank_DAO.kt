@@ -1,4 +1,4 @@
-package com.leri.khvingia.data
+package com.leri.khvingia.model
 
 import androidx.paging.PagingSource
 import androidx.room.Dao

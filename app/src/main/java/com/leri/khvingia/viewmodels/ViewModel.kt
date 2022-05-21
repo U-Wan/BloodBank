@@ -1,4 +1,4 @@
-package com.leri.khvingia
+package com.leri.khvingia.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -7,9 +7,9 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
 import androidx.paging.liveData
-import com.leri.khvingia.data.BloodBank
-import com.leri.khvingia.data.BloodBank_DAO
-import com.leri.khvingia.data.BloodBankDB
+import com.leri.khvingia.model.BloodBank
+import com.leri.khvingia.model.BloodBank_DAO
+import com.leri.khvingia.model.BloodBankDB
 
 import kotlinx.coroutines.launch
 

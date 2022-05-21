@@ -1,4 +1,4 @@
-package com.leri.khvingia
+package com.leri.khvingia.view
 
 import android.app.DatePickerDialog
 import android.content.Intent
@@ -12,7 +12,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.leri.khvingia.data.BloodBank
+import com.leri.khvingia.R
+import com.leri.khvingia.viewmodels.ViewModel
+import com.leri.khvingia.model.BloodBank
 import com.leri.khvingia.databinding.ActivityMainBinding
 
 

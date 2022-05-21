@@ -1,4 +1,4 @@
-package com.leri.khvingia
+package com.leri.khvingia.viewmodels
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.leri.khvingia.data.BloodBank
 import com.leri.khvingia.databinding.DonationBinding
+import com.leri.khvingia.model.BloodBank
 
 class DonatorAdapter : PagingDataAdapter<BloodBank, DonatorAdapter.UserProfileViewHolder>(
     UserProfileComparator
